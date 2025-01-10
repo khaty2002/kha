@@ -340,7 +340,7 @@ Show
 BaseType "Waystone" 
 Rarity <= Rare
 AnyEnchantment True
-WaystoneTier > 10
+WaystoneTier > 5
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 180 45 123 255
