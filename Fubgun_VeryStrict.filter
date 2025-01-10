@@ -352,7 +352,7 @@ SetFontSize 40
 Show
 BaseType "Waystone" 
 Rarity <= Rare
-WaystoneTier > 10
+WaystoneTier > 5
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayAlertSound 4 300
@@ -362,7 +362,7 @@ SetFontSize 40
 
 Hide
 BaseType "Waystone"
-WaystoneTier <= 10
+WaystoneTier <= 5
 
 Show
 BaseType "Logbook"
