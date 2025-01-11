@@ -340,7 +340,7 @@ Show
 BaseType "Waystone" 
 Rarity <= Rare
 AnyEnchantment True
-WaystoneTier > 6
+WaystoneTier > 8
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 180 45 123 255
@@ -352,7 +352,7 @@ SetFontSize 40
 Show
 BaseType "Waystone" 
 Rarity <= Rare
-WaystoneTier > 6
+WaystoneTier > 8
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayAlertSound 4 300
@@ -362,7 +362,7 @@ SetFontSize 40
 
 Hide
 BaseType "Waystone"
-WaystoneTier <= 6
+WaystoneTier <= 8
 
 Show
 BaseType "Logbook"
