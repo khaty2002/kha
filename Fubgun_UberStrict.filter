@@ -44,7 +44,7 @@ SetFontSize 35
 ## Divine Orb Style
 Show
 Class "Currency"
-BaseType "Mirror" "Divine" "Perfect Jeweller's Orb" 
+BaseType "Mirror" "Divine" "Perfect Jeweller's Orb" "Greater Jeweller's Orb"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -82,7 +82,7 @@ SetFontSize 40
 
 Show
 Class "Currency"
-BaseType "Distilled" "Essence of" "Omen of"
+BaseType "Distilled" "Catalyst" "Essence of"
 SetFontSize 45
 SetTextColor 255 207 132
 SetBorderColor 255 207 132
@@ -90,46 +90,13 @@ SetBackgroundColor 76 51 12
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
-
-
-Show
-Class "Currency"
-BaseType "Neural Catalyst" "Adaptive Catalyst"
-SetFontSize 40
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
-PlayAlertSound 2 300
-PlayEffect White
-MinimapIcon 1 White Circle
-
-Show
-Class "Currency"
-BaseType "Catalyst"
-StackSize = 10
-SetFontSize 40
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
-PlayAlertSound 2 300
-PlayEffect White
-MinimapIcon 1 White Circle
-
-Hide
-Class "Currency"
-BaseType "Catalyst"
-SetFontSize 45
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
-AreaLevel >= 65
 
 
 #--------------------------
 # Gold
 #--------------------------
 
-Hide
+Show
 StackSize >= 500
 BaseType == "Gold"
 SetTextColor 255 255 255
@@ -141,14 +108,6 @@ BaseType == "Gold"
 SetTextColor 180 180 180
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 180
-AreaLevel >= 65
-
-Show
-BaseType == "Gold"
-SetTextColor 180 180 180
-SetBorderColor 0 0 0 255
-SetBackgroundColor 0 0 0 180
-AreaLevel < 65
 
 #--------------------------
 # Uncut Gems
@@ -335,7 +294,7 @@ MinimapIcon 2 Grey Circle
 
 Hide
 Class "Currency"
-BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation"
+BaseType "Wisdom"
 AreaLevel >= 65
 
 Show
