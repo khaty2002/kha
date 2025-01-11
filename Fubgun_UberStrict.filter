@@ -165,14 +165,14 @@ PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 
-Hide
+Show
 BaseType "Uncut"
 ItemLevel = 3
 AreaLevel >= 65
 
 Hide
 BaseType "Uncut"
-ItemLevel <= 19
+ItemLevel <= 18
 AreaLevel >= 65
 
 
@@ -325,17 +325,17 @@ AreaLevel >= 65
 
 Show
 Class "Currency"
-BaseType " Artifact"
+BaseType " Artifact" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Regal Orb"
 SetFontSize 40
-SetTextColor 255 255 255 255
-SetBorderColor 255 255 255 255
-SetBackgroundColor 180 15 200
+SetTextColor 190 178 135
+SetBorderColor 190 178 135
+SetBackgroundColor 20 20 0
 MinimapIcon 2 Grey Circle
 
 
 Hide
 Class "Currency"
-BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation" "Lesser Jeweller's Orb" "Arcanist's Etcher" "Blacksmith's Whetstone" "Artificer's Orb" "Regal Orb"
+BaseType "Wisdom" "Shard" "Aug" "Orb of Transmutation"
 AreaLevel >= 65
 
 Show
@@ -360,7 +360,7 @@ MinimapIcon 1 White Circle
 
 # Fragments
 Show
-BaseType "Simulacrum" " Tablet" "Breachstone" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+BaseType "Simulacrum" " Tablet" "Breachstone" "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate"
 SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
@@ -381,13 +381,13 @@ MinimapIcon 1 White Square
 SetFontSize 40
 
 Hide
-BaseType "Djinn Barya" "Ultimatum"
+BaseType "Djinn Barya" 
 
 Show
 BaseType "Waystone" 
 Rarity <= Rare
 AnyEnchantment True
-WaystoneTier >= 6
+WaystoneTier >= 8
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 180 45 123 255
@@ -399,7 +399,7 @@ SetFontSize 40
 Show
 BaseType "Waystone" 
 Rarity <= Rare
-WaystoneTier >= 6
+WaystoneTier >= 8
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayAlertSound 4 300
@@ -409,7 +409,7 @@ SetFontSize 40
 
 Hide
 BaseType "Waystone"
-WaystoneTier < 6
+WaystoneTier < 8
 
 
 Show
