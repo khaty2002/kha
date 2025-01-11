@@ -293,7 +293,7 @@ MinimapIcon 2 Grey Circle
 
 
 Hide
-Class "Currency"
+Class "Currency" "Orb of Transmutation"
 BaseType "Wisdom"
 AreaLevel >= 65
 
