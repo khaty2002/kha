@@ -401,7 +401,13 @@ MinimapIcon 1 Yellow Diamond
 Show
 Rarity Normal
 BaseType "Stellar Amulet" "Sapphire Ring"
-SetFontSize 35
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 240 90 35 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+SetFontSize 45
 
 Show
 Rarity Normal
